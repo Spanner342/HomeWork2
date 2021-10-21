@@ -116,18 +116,18 @@ let countYear = day / 365,
 
 if (countYear < 1) {
     console.log("Меньше года");
-}else {
+} else {
     console.log('' + (countYear).toFixed(1) + ' лет');
 }
 
 if (countMonth < 1) {
     console.log("Меньше месяца");
-}else {
+} else {
     console.log('' + (countMonth).toFixed(1) + ' месяцев');
 }
 
 if (countWeek < 1) {
     console.log("Меньше недели");
-}else {
+} else {
     console.log('' + (countWeek).toFixed(1) + ' недель');
 }
